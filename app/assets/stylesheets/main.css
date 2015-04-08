@@ -65,7 +65,7 @@ textarea {
 
 
 /* ===== Initializr Styles ==================================================
-   Author: Bradley Greenwood
+   Author: Thiago Greenwood
    ========================================================================== */
 
 body {
@@ -160,7 +160,7 @@ body {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
 }
 
-#introtext .head-sarah {
+#introtext .head-mei {
     font-family: "EdwardianScrAltITCTT", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 5em;
     line-height: 100%;
@@ -171,7 +171,7 @@ body {
     margin-left: -10px;
     font-size: 0.7em;
 }
-#introtext .head-brad {
+#introtext .head-thi {
     font-family: "futura_ltbook", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 2em;
     line-height: 100%;
@@ -242,7 +242,7 @@ nav ul li a::-moz-focus-inner {border:0;}
 }
 
 /* ==========================================================================
-   Brad's custom styles
+   Thi's custom styles
    ========================================================================== */
 * { margin: 0; padding: 0; }
 html {
@@ -257,19 +257,19 @@ body {
 }
 
 #bg-image {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
     height: 200%;
 }
 #bg-image img {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     min-width: 50%;
     min-height: 50%;
 }
@@ -351,7 +351,7 @@ section h2 {
     .header-container.sticky {
         position: fixed;
         top: 15px;
-        
+
         animation:thedrop 1s 1;
         -moz-animation:thedrop 1s 1;
         -webkit-animation:thedrop 1s 1;
@@ -361,7 +361,7 @@ section h2 {
         padding: 30px 0 30px 0;
     }
 
-    #introtext .head-sarah {
+    #introtext .head-mei {
         font-size: 7em;
     }
     #introtext .amp {
@@ -370,7 +370,7 @@ section h2 {
         font-size: 0.9em;
         margin-left: -20px;
     }
-    #introtext .head-brad {
+    #introtext .head-thi {
         font-size: 3em;
     }
     #introtext .date {
@@ -472,14 +472,14 @@ section h2 {
     WIDE: Menu
    ============ */
 
-    #introtext .head-sarah {
+    #introtext .head-mei {
         font-size: 9em;
    }
     #introtext .amp {
         top: 0;
         font-size: 1em;
     }
-    #introtext .head-brad {
+    #introtext .head-thi {
         font-size: 4em;
     }
     #introtext .date {
@@ -527,7 +527,7 @@ section h2 {
         font-size: 1.4em;
         line-height: 145%;
         padding: 0 20px;
-    }  
+    }
 
 }
 
@@ -548,14 +548,14 @@ section h2 {
         margin: 0 auto;
     }
 
-    #introtext .head-sarah {
+    #introtext .head-mei {
         font-size: 11em;
     }
     #introtext .amp {
         top: 0;
         font-size: 1.1em;
     }
-    #introtext .head-brad {
+    #introtext .head-thi {
         font-size: 5em;
     }
     #introtext .date {
@@ -572,7 +572,7 @@ section h2 {
         width: 100%;
     }
 
-  
+
 }
 
 /* ==========================================================================
@@ -870,4 +870,3 @@ a.email {
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
-
