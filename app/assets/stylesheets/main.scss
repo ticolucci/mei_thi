@@ -1,0 +1,763 @@
+//colors
+$black: #000;
+$color_mountain_mist_approx: #999;
+$color_log_cabin_approx: #222;
+$color_sail_approx: #b3d4fc;
+$color_swamp_green_approx: #b1bf92;
+$color_celeste_approx: #ccc;
+$color_cod_gray_approx: #090909;
+$black_80: rgba(0, 0, 0, 0.8);
+$black_40: rgba(0, 0, 0, 0.4);
+$white: white;
+$black_70: rgba(0, 0, 0, 0.7);
+$color_rangoon_green_approx: #1e1e1e;
+$gray: #808080;
+
+//fonts
+$font_0: 'futura_ltbold';
+$font_1: 'futura_ltbook';
+$font_2: 'futura_ltregular';
+$font_3: 'alex_brushregular';
+$font_4: 'great_vibesregular';
+$font_5: 'scriptina_proregular';
+$font_6: 'EdwardianScrAltITCTT';
+$font_7: 'EdwardianScrAltITCTTBold';
+$font_8: 'Helvetica';
+$font_9: 'Helvetica Neue';
+$font_10: 'Arial';
+$font_11: 'EdwardianScrAltITCTT';
+$font_12: 'Helvetica Neue';
+$font_13: 'Helvetica';
+$font_14: 'Arial';
+$font_15: 'Lucida Grande';
+$font_16: 'sans-serif';
+$font_17: 'futura_ltbook';
+$font_18: 'Helvetica Neue';
+$font_19: 'Helvetica';
+$font_20: 'Arial';
+$font_21: 'Lucida Grande';
+$font_22: 'sans-serif';
+$font_23: 'futura_ltbook';
+$font_24: 'Helvetica Neue';
+$font_25: 'Helvetica';
+$font_26: 'Arial';
+$font_27: 'Lucida Grande';
+$font_28: 'sans-serif';
+$font_29: 'futura_ltbook';
+$font_30: 'Arial';
+$font_31: 'sans-serif';
+$font_32: 'futura_ltbook';
+$font_33: 'HelveticaNeueLTStdRegular';
+$font_34: 'HelveticaNeue';
+$font_35: 'Helvetica Neue';
+$font_36: 'Helvetica';
+$font_37: 'Arial';
+$font_38: 'sans-serif';
+$font_39: 'EdwardianScrAltITCTT';
+$font_40: 'Helvetica Neue';
+$font_41: 'Helvetica';
+$font_42: 'Arial';
+$font_43: 'Lucida Grande';
+$font_44: 'sans-serif';
+
+//@extend-elements
+//original selectors
+//#gmap small a, #gmap small a:active, #gmap small a:visited
+%extend_1 {
+  color: $color_swamp_green_approx;
+  text-decoration: none;
+  outline: none;
+}
+
+//original selectors
+//.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus
+%extend_2 {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-weight: normal;
+}
+h3 {
+  font-weight: normal;
+}
+h4 {
+  font-weight: normal;
+}
+h5 {
+  font-weight: normal;
+}
+h6 {
+  font-weight: normal;
+}
+html {
+  color: $color_log_cabin_approx;
+}
+button {
+  color: $color_log_cabin_approx;
+}
+input {
+  color: $color_log_cabin_approx;
+}
+select {
+  color: $color_log_cabin_approx;
+}
+textarea {
+  color: $color_log_cabin_approx;
+  resize: vertical;
+}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+  font: 16px/26px $font_8, $font_9, $font_10;
+  font-family: $font_32, $font_33, $font_34, $font_35, $font_36, $font_37, $font_38;
+  color: $white;
+  text-align: center;
+}
+::-moz-selection {
+  background: $color_sail_approx;
+  //Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  text-shadow: none;
+}
+::selection {
+  background: $color_sail_approx;
+  //Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  text-shadow: none;
+}
+a {
+  color: $color_swamp_green_approx;
+  text-decoration: none;
+  &.email {
+    color: $color_swamp_green_approx;
+  }
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $color_celeste_approx;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+  &.theinn {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: $color_celeste_approx;
+  color: $black;
+  padding: 0.2em 0;
+}
+.wrapper {
+  height: 100%;
+  position: relative;
+  width: 90%;
+  margin: 0 5%;
+}
+#gmap {
+  text-align: center;
+  margin: 20px auto 20px auto;
+  iframe {
+    width: 93%;
+    height: 200px;
+    border: 10px solid $color_cod_gray_approx;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+    border-radius: 8px;
+  }
+  small a {
+    @extend %extend_1;
+    &:active {
+      @extend %extend_1;
+    }
+    &:visited {
+      @extend %extend_1;
+    }
+    &:hover {
+      color: $color_swamp_green_approx;
+      text-decoration: underline;
+      outline: none;
+    }
+  }
+}
+.header-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  z-index: 10;
+  background: $black_80;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)";
+}
+.title {
+  color: $black;
+}
+#introtext {
+  display: block;
+  padding: 10px 0;
+  margin-bottom: 300px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 8px;
+  background: $black_40;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
+  color: $white;
+  .head-mei {
+    font-family: $font_11, $font_12, $font_13, $font_14, $font_15, $font_16;
+    font-size: 5em;
+    line-height: 100%;
+  }
+  .amp {
+    position: relative;
+    top: 19px;
+    margin-left: -10px;
+    font-size: 0.7em;
+  }
+  .head-thi {
+    font-family: $font_17, $font_18, $font_19, $font_20, $font_21, $font_22;
+    font-size: 2em;
+    line-height: 100%;
+  }
+  .date {
+    margin-top: 10px;
+    font-family: $font_23, $font_24, $font_25, $font_26, $font_27, $font_28;
+    font-size: 1em;
+  }
+}
+nav {
+  z-index: 42;
+  ul {
+    font-family: $font_29, $font_30, $font_31;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    li {
+      a::-moz-focus-inner {
+        border: 0;
+      }
+      a:focus {
+        outline: none;
+      }
+    }
+  }
+  a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: $white;
+    background: transparent;
+    white-space: nowrap;
+    outline: none;
+  }
+  li a {
+    &:hover {
+      color: $white;
+      background: $color_swamp_green_approx;
+      text-decoration: none;
+      outline: none;
+    }
+    &.selected {
+      color: $white;
+      background: $color_swamp_green_approx;
+      text-decoration: none;
+      outline: none;
+    }
+  }
+}
+.main {
+  padding: 5% 0;
+  header {
+    float: left;
+    width: 80%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#bg-image {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+  }
+}
+#bg-container {
+}
+section {
+  text-align: left;
+  padding: 25px;
+  background-color: $black;
+  height: 100%;
+  margin-top: 200px;
+  color: $white;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 8px;
+  background: $black_70;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000, endColorstr=#B2000000)";
+  h1 {
+    font-family: $font_39, $font_40, $font_41, $font_42, $font_43, $font_44;
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 1.1em;
+    line-height: 120%;
+    padding: 0;
+  }
+}
+.column {
+  float: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  p {
+    font-size: 1em;
+    line-height: 145%;
+    padding: 0;
+  }
+}
+@media only screen and(min-width: 480px) {
+  body {
+    background-position: 50% 20%;
+  }
+  .header-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    line-height: 12px;
+    &.sticky {
+      position: fixed;
+      top: 15px;
+      animation: thedrop 1s 1;
+      -moz-animation: thedrop 1s 1;
+      -webkit-animation: thedrop 1s 1;
+    }
+  }
+  #introtext {
+    padding: 30px 0;
+    .head-mei {
+      font-size: 7em;
+    }
+    .amp {
+      position: relative;
+      top: 29px;
+      font-size: 0.9em;
+      margin-left: -20px;
+    }
+    .head-thi {
+      font-size: 3em;
+    }
+    .date {
+      font-size: 1.1em;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+  }
+  nav {
+    display: block;
+    ul {
+      margin: auto;
+      padding: 0;
+      text-align: center;
+      li {
+        padding: 0;
+        margin: 0;
+        display: inline;
+      }
+    }
+    a {
+      padding: 15px 1%;
+      margin-bottom: 0;
+      display: inline-block;
+      font-size: 60%;
+      white-space: nowrap;
+      -moz-font-smoothing: antialiased;
+      -o-font-smoothing: antialiased;
+      -ms-font-smoothing: antialiased;
+      -webkit-font-smoothing: antialiased;
+      font-smoothing: antialiased;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      //Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+      transition: all .3s ease;
+    }
+  }
+  section {
+    padding: 40px 40px 70px 40px;
+    h1 {
+      font-size: 3.1em;
+    }
+    h2 {
+      font-size: 1.7em;
+    }
+  }
+  .main header {
+    margin-top: 10%;
+    float: left;
+    width: 40%;
+    min-width: 320px;
+  }
+  .column p {
+    font-size: 1.1em;
+  }
+  #gmap iframe {
+    height: 400px;
+  }
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
+}
+@media only screen and(min-width: 768px) {
+  section {
+    h1 {
+      font-size: 4.9em;
+    }
+    h2 {
+      font-size: 2.0em;
+    }
+  }
+  #introtext {
+    .head-mei {
+      font-size: 9em;
+    }
+    .amp {
+      top: 0;
+      font-size: 1em;
+    }
+    .head-thi {
+      font-size: 4em;
+    }
+    .date {
+      font-size: 2em;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+  }
+  .main header {
+    margin-top: 10%;
+    margin-bottom: 30%;
+    float: left;
+    width: 100%;
+  }
+  nav a {
+    padding: 15px 2%;
+    font-size: 90%;
+  }
+}
+@media only screen and(min-width: 900px) {
+  section {
+    h1 {
+      padding: 0 20px;
+      font-size: 5.9em;
+    }
+    h2 {
+      padding: 0 20px;
+    }
+  }
+  .column {
+    float: left;
+    width: 50%;
+    &.full {
+      clear: both;
+      float: none;
+      width: 100%;
+    }
+    p {
+      font-size: 1.4em;
+      line-height: 145%;
+      padding: 0 20px;
+    }
+  }
+}
+@media only screen and(min-width: 1140px) {
+  .wrapper {
+    width: 1026px;
+    margin: 0 auto;
+  }
+  #introtext {
+    .head-mei {
+      font-size: 11em;
+    }
+    .amp {
+      top: 0;
+      font-size: 1.1em;
+    }
+    .head-thi {
+      font-size: 5em;
+    }
+    .date {
+      font-size: 2.5em;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+  }
+  nav a {
+    padding: 15px 3%;
+    font-size: 120%;
+  }
+  .main header {
+    margin-top: 4%;
+    margin-bottom: 30%;
+    float: left;
+    width: 100%;
+  }
+}
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+  }
+}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  &.focusable {
+    &:active {
+      @extend %extend_2;
+    }
+    &:focus {
+      @extend %extend_2;
+    }
+  }
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
+@media print {
+  * {
+    background: transparent !important;
+    color: $black !important;
+    //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: none !important;
+    //Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    text-shadow: none !important;
+  }
+  a {
+    text-decoration: underline;
+    &:visited {
+      text-decoration: underline;
+    }
+  }
+  pre {
+    border: 1px solid $color_mountain_mist_approx;
+    page-break-inside: avoid;
+  }
+  blockquote {
+    border: 1px solid $color_mountain_mist_approx;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr {
+    page-break-inside: avoid;
+  }
+  img {
+    page-break-inside: avoid;
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+  h2 {
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+  }
+  h3 {
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+  }
+  a[href]:after {
+    content: "(" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: "(" attr(title) ")";
+  }
+  .ir a:after {
+    content: "";
+  }
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  a[href^="#"]:after {
+    content: "";
+  }
+}
+@font-face {
+  font-family: $font_0;
+  src: url('futuralt-bold-webfont.eot?#iefix') format('embedded-opentype'), url('futuralt-bold-webfont.woff') format('woff'), url('futuralt-bold-webfont.ttf') format('truetype'), url('futuralt-bold-webfont.svg#futura_ltbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_1;
+  src: url('futuralt-book-webfont.eot?#iefix') format('embedded-opentype'), url('futuralt-book-webfont.woff') format('woff'), url('futuralt-book-webfont.ttf') format('truetype'), url('futuralt-book-webfont.svg#futura_ltbook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_2;
+  src: url('futuralt-webfont.eot?#iefix') format('embedded-opentype'), url('futuralt-webfont.woff') format('woff'), url('futuralt-webfont.ttf') format('truetype'), url('futuralt-webfont.svg#futura_ltregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_3;
+  src: url('alexbrush-regular-otf-webfont.eot?#iefix') format('embedded-opentype'), url('alexbrush-regular-otf-webfont.woff') format('woff'), url('alexbrush-regular-otf-webfont.ttf') format('truetype'), url('alexbrush-regular-otf-webfont.svg#alex_brushregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_4;
+  src: url('greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('greatvibes-regular-webfont.woff') format('woff'), url('greatvibes-regular-webfont.ttf') format('truetype'), url('greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_5;
+  src: url('scriptina_pro-webfont.eot?#iefix') format('embedded-opentype'), url('scriptina_pro-webfont.woff') format('woff'), url('scriptina_pro-webfont.ttf') format('truetype'), url('scriptina_pro-webfont.svg#scriptina_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_6;
+  src: url('edwasai.eot?#iefix') format('embedded-opentype'), url('edwasai.woff') format('woff'), url('edwasai.ttf') format('truetype'), url('edwasai.svg#edwasai') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font_7;
+  src: url('edwasaib.eot?#iefix') format('embedded-opentype'), url('edwasaib.woff') format('woff'), url('edwasaib.ttf') format('truetype'), url('edwasaib.svg#edwasaib') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.hr-t {
+  margin: 80px auto 0 auto;
+  width: 97%;
+  border-top: $color_rangoon_green_approx solid 1px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+.hr-b {
+  margin: 0 auto 80px auto;
+  width: 97%;
+  border-bottom: $gray solid 1px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+a[href^=tel] {
+  color: $white;
+  text-decoration: none;
+  outline: none;
+}
+.thumb {
+  height: 80px;
+  width: 80px;
+  background-color: $black;
+  margin-right: 10px;
+  margin-bottom: 0;
+  float: left;
+  border: 4px solid $color_cod_gray_approx;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 2px;
+}
+.responsive-image.proposal img {
+  border: 10px solid $color_cod_gray_approx;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  //Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+  border-radius: 8px;
+}
+div.bp {
+  h2 {
+    margin: 0;
+  }
+  .column p {
+    line-height: 180%;
+  }
+}
