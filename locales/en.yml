@@ -1,0 +1,9 @@
+en:
+  views:
+    pages:
+      index:
+        html:
+          slim:
+            accomodations: ACCOMODATIONS
+            the_bride__groom: THE BRIDE & GROOM
+            wedding: WEDDING
