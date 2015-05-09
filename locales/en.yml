@@ -4,6 +4,29 @@ en:
       index:
         html:
           slim:
-            accomodations: ACCOMODATIONS
+            address_line_1: address line 1
+            address_line_2: address line 2
+            ceremony: CEREMONY
+            cerimony_date: cerimony date
+            cerimony_time: cerimony time
+            date: July 4th, 2015
+            gift_list: gift-list
+            gift_list_desc: gift list desc
+            gift_list_link: gift list link
+            gift_list_title: gift list title
+            how_we_met_desc: " In 2010 the two were both wild and running free around San Francisco’s Marina District, as most singles do. Thiago was quite the bachelor- planning weekend getaways with friends, float trips, and taking last minute trips to Ibiza, Cabo, wherever the wind blew. Mei was quite the bachelorette, wining and dining around San Francisco, on a strict agenda which included over-extending herself, saying yes to every social engagement that came her way.  After a mutual friend of the two suggested they would make a cute couple, a date was on the books and they began to discover just how compatible they were. In no time, they also discovered they were inseparable and very in love. The rest is history- they’ve shared some amazing adventures around the world, each other's toothbrushes, and now they’re ready to share the rest of their lives together, too."
+            how_we_met_title: HOW WE MET title
+            leave_a_message: LEAVE A MESSAGE
+            leave_a_message_desc: leave a message desc
+            leave_a_message_title: leave a message title
+            mei: MEI
+            mei_desc: Mei is most thankful to her parents for the gift of two loving big brothers & five amazing role-model sisters. As the second-youngest, Mei spent her childhood twirling & dancing around, putting on talent shows for her parents & grandparents. Her creative spirit and eye for design was established at a young age, as she highly disapproved of Mattel’s © furnishings and décor within her Barbie House. If Barbie needed an interior makeover (which was frequent) Mei looked through Sunday newspaper ads & IKEA magazines for inspiration, drew the new contents by hand and placed them as backdrops in the Barbie house. After graduation from Mater Dei High School, Mei explored the metropolitan life in San Francisco and graduated with a BS in Interior Design from San Francisco State University. Mei is adding to her vows that she will forever allow a one-room “man-den” with it’s contents and décor subject to Thiago’s discretion.
+            party: PARTY
+            party_desc: party_desc
+            party_title: party_title
             the_bride__groom: THE BRIDE & GROOM
+            the_bride_and_groom_title: The Bride and Groom title
+            thi_desc: Born in Mission Viejo, California, Thiago spent half of his life living with his mother in San Diego and half with his wonderful Wisconsin family. Thiago grew up playing ice hockey while secretly learning how to build computers. Half jock, half nerd, he has cultivated these interests well into his adult life, that make him who he is today. After his graduation from the University of San Francisco with a degree in Information Systems, Thiago worked for Yahoo! for seven years, and continued to explore the tech startup scene in  San Francisco. With an entrepreneurial spirit and passion for technology, Thiago now runs his own software company, Scal.io, building hand-crafted mobile,  web, and desktop apps for tech companies in the Silicon Valley and beyond. Thiago is adding to his vows a lifetime IT guarantee to Mei, that he will be readily available 24/7 to troubleshoot... anything & everything technical.
+            thiago: THIAGO
             wedding: WEDDING
+            wedding_title: Wedding title
