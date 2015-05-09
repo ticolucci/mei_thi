@@ -1,6 +1,6 @@
 LocaleSetter.configure do |config|
   config.localized_domains = {
-    "meiandthi.com" => :en,
-    "meiethi.com.br" => :pt
+    "www.meiandthi.com" => :en,
+    "www.meiethi.com.br" => :pt
   }
 end
