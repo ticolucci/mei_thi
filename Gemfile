@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'puma'
 gem 'locale_setter'
 gem 'localeapp'
+gem 'pry'
 
 group :production do
   gem 'pg'
