@@ -12,6 +12,8 @@ en:
             countdown: "%{days} days to the big date"
             date: July 4th, 2015
             date_raw: 4-07-2015
+            email_field: email_field
+            from_field: From_field
             gift_list: gift-list
             gift_list_desc: gift list desc
             gift_list_link: gift list link
@@ -23,9 +25,11 @@ en:
             leave_a_message_title: leave a message title
             mei: MEI
             mei_desc: Mei is most thankful to her parents for the gift of two loving big brothers & five amazing role-model sisters. As the second-youngest, Mei spent her childhood twirling & dancing around, putting on talent shows for her parents & grandparents. Her creative spirit and eye for design was established at a young age, as she highly disapproved of Mattel’s © furnishings and décor within her Barbie House. If Barbie needed an interior makeover (which was frequent) Mei looked through Sunday newspaper ads & IKEA magazines for inspiration, drew the new contents by hand and placed them as backdrops in the Barbie house. After graduation from Mater Dei High School, Mei explored the metropolitan life in San Francisco and graduated with a BS in Interior Design from San Francisco State University. Mei is adding to her vows that she will forever allow a one-room “man-den” with it’s contents and décor subject to Thiago’s discretion.
+            message_field: message_field
             party: PARTY
             party_desc: party_desc
             party_title: party_title
+            send: Send
             special_message_link: special_message_link
             the_bride__groom: THE BRIDE & GROOM
             the_bride_and_groom_title: The Bride and Groom title

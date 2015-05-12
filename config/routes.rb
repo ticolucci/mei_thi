@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :messages
+
+  get 'messages/show'
+
+  get 'messages/new'
+
+  get 'messages/create'
+
   get 'pages/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

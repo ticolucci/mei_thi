@@ -12,6 +12,8 @@ pt:
             countdown: Faltam %{days} dias
             date: 4 de Julho de 2015
             date_raw: 4-07-2015
+            email_field: 
+            from_field: 
             gift_list: LISTA DE PRESENTES
             gift_list_desc: 'Agradecemos antecipadamente sua intenção de nos ajudar no começo da nossa vida! No entanto, como bem sabem, não sabemos ainda onde criaremos raízes no mundo. Resolvemos então dar duas opções para aqueles que ainda assim desejarem nos presentear: "doação" (escolhendo um dos ítens na página da lista de presentes) ou depósito na conta corrente do Thiago no Brasil (basta seguir para a página de menssagem especial).'
             gift_list_link: Lista de presentes
@@ -23,9 +25,11 @@ pt:
             leave_a_message_title: Deixe uma mensagem
             mei: MEI
             mei_desc: blablabal
+            message_field: 
             party: FESTA
             party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
             party_title: Festa
+            send: 
             special_message_link: Mensagem especial
             the_bride__groom: A NOIVA E O NOIVO
             the_bride_and_groom_title: A Noiva e o Noivo
