@@ -9,7 +9,9 @@ en:
             ceremony: CEREMONY
             cerimony_date: cerimony date
             cerimony_time: cerimony time
+            countdown: "%{days} days to the big date"
             date: July 4th, 2015
+            date_raw: 4-07-2015
             gift_list: gift-list
             gift_list_desc: gift list desc
             gift_list_link: gift list link

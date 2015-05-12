@@ -23,6 +23,7 @@
           span.amp= '&'
           span.head-thi Thiago
           .date= I18n.t('views.pages.index.html.slim.date')
+          .countdown= I18n.t('views.pages.index.html.slim.s_days_to_the_big_date', days: countdown_from(I18n.t('views.pages.index.html.slim.date_raw')))
       .clearfix
       section#brideandgroom.clearfix
         h1= I18n.t('views.pages.index.html.slim.the_bride_and_groom_title')

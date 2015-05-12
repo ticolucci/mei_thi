@@ -9,7 +9,9 @@ pt:
             ceremony: CASAMENTO NA IGREJA
             cerimony_date: 4 de Julho de 2015
             cerimony_time: Casamento na Igreja
+            countdown: Faltam %{days} dias
             date: 4 de Julho de 2015
+            date_raw: 4-07-2015
             gift_list: LISTA DE PRESENTES
             gift_list_desc: 'Agradecemos antecipadamente sua intenção de nos ajudar no começo da nossa vida! No entanto, como bem sabem, não sabemos ainda onde criaremos raízes no mundo. Resolvemos então dar duas opções para aqueles que ainda assim desejarem nos presentear: "doação" (escolhendo um dos ítens na página da lista de presentes) ou depósito na conta corrente do Thiago no Brasil (basta seguir para a página de menssagem especial).'
             gift_list_link: Lista de presentes
