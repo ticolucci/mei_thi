@@ -200,13 +200,13 @@ fieldset {
   color: $white;
   .head-mei,.head-thi {
     font-family: $font_11, $font_12, $font_13, $font_14, $font_15, $font_16;
-    font-size: 5em;
+    font-size: 2.4em;
     line-height: 100%;
     margin: 0 0.5em 0 0.5em;
   }
   .amp {
     font-family: $font_17, $font_18, $font_19, $font_20, $font_21, $font_22;
-    font-size: 2em;
+    font-size: 1em;
     line-height: 100%;
   }
   .date {
@@ -345,14 +345,14 @@ section {
   #introtext {
     padding: 30px 0;
     .head-mei,.head-thi {
-      font-size: 7em;
+      font-size: 5em;
     }
     .amp {
-      font-size: 0.9em;
+      font-size: 2em;
       margin-left: -20px;
     }
     .date {
-      font-size: 1.1em;
+      font-size: 1.2em;
       margin-top: 15px;
       margin-bottom: 20px;
     }
@@ -399,8 +399,7 @@ section {
   }
   .main header {
     margin-top: 10%;
-    float: left;
-    width: 40%;
+    width: 90%;
     min-width: 320px;
   }
   .column p {
