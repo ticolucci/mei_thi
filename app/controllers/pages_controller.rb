@@ -3,5 +3,6 @@ class PagesController < ApplicationController
     Rails.logger.info "host: #{request.host}"
     Rails.logger.info "params: #{request.params.inspect}"
     @message = Message.new
+    @messages = Message.all
   end
 end
