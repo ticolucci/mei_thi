@@ -735,6 +735,7 @@ a[href^=tel] {
   border-radius: 2px;
 }
 .responsive-image.proposal img {
+  width: 100%;
   border: 10px solid $color_cod_gray_approx;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;

@@ -50,9 +50,10 @@ picture#bg-image
           p= I18n.t('views.pages.index.html.slim.how_we_met_desc')
         /! end column
         .column.full
-          figure.responsive-image.proposal data-media="img/onknee-small.jpg" data-media1140="img/onknee-large.jpg" data-media480="img/onknee-small.jpg" data-media768="img/onknee-medium.jpg"
-            noscript
-              img src="img/onknee-large.jpg" /
+          picture.responsive-image.proposal
+            source media="(min-width: 768px)" srcset="img/onknee-large.jpg"
+            source media="(min-width: 320px)" srcset="img/onknee-small.jpg"
+            img src="img/onknee-large.jpg" alt="mei_and_thi"
         /! end column
       section#wedding.clearfix
         h1= I18n.t('views.pages.index.html.slim.wedding_title')
