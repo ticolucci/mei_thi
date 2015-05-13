@@ -8,4 +8,4 @@
   .field
     = f.label :email, I18n.t('views.pages.index.html.slim.email_field')
     = f.text_field :email, type: 'email', required: true
-  .actions = f.submit I18n.t('views.pages.index.html.slim.send')
+  .actions = f.submit I18n.t('views.pages.index.html.slim.send'), class:'button'
