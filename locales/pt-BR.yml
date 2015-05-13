@@ -1,27 +1,32 @@
 pt-BR:
+  activerecord:
+    attributes:
+      message:
+        email: E-mail
+        from: De
+        message: Mensagem
+    models:
+      message: Mensagem
+  errors:
+    messages:
+      blank: em branco
   views:
     pages:
       index:
         html:
           slim:
-            address_line_1:
-            address_line_2:
+            address_line_1: Paróquia Santíssima Trindade - Av. Marechal Fiuza de Castro, 861
+            address_line_2: Butantã/São Paulo
             ceremony: CASAMENTO NA IGREJA
             cerimony_date: 4 de Julho de 2015
             cerimony_time: Casamento na Igreja
             countdown: Faltam %{days} dias
             date: 4 de Julho de 2015
             date_raw: 4-07-2015
-            email_field:
-            from_field:
+            email_field: 'E-mail:'
+            from_field: 'De:'
             gift_list: LISTA DE PRESENTES
-            gift_list_desc: "
-              <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida!
-              </p>
-              <p>
-              Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo.
-              </p>
-              "
+            gift_list_desc: " <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida! </p> <p> Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo. </p> "
             gift_list_link: Lista de Presentes
             gift_list_title: Lista de presentes
             how_we_met_desc: blabal
@@ -31,11 +36,11 @@ pt-BR:
             leave_a_message_title: Deixe uma mensagem
             mei: MEI
             mei_desc: blablabal
-            message_field:
+            message_field: Mensagem
             party: FESTA
             party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
             party_title: Festa
-            send:
+            send: Enviar
             special_message_link: Depósito Especial
             the_bride__groom: A NOIVA E O NOIVO
             the_bride_and_groom_title: A Noiva e o Noivo
