@@ -1,11 +1,5 @@
 Rails.application.routes.draw do
-  resources :messages
-
-  get 'messages/show'
-
-  get 'messages/new'
-
-  get 'messages/create'
+  resources :messages, only: [:create]
 
   get 'pages/index'
 

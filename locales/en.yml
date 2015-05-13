@@ -1,4 +1,15 @@
 en:
+  activerecord:
+    models:
+      message: Message
+    attributes:
+      message:
+        message: Message
+        email: E-mail
+        from: From
+  errors:
+    messages:
+      blank: blank
   views:
     pages:
       index:
