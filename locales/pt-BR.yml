@@ -1,0 +1,45 @@
+pt:
+  views:
+    pages:
+      index:
+        html:
+          slim:
+            address_line_1:
+            address_line_2:
+            ceremony: CASAMENTO NA IGREJA
+            cerimony_date: 4 de Julho de 2015
+            cerimony_time: Casamento na Igreja
+            countdown: Faltam %{days} dias
+            date: 4 de Julho de 2015
+            date_raw: 4-07-2015
+            email_field:
+            from_field:
+            gift_list: LISTA DE PRESENTES
+            gift_list_desc: "
+              <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida!
+              </p>
+              <p>
+              Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo.
+              </p>
+              "
+            gift_list_link: Lista de Presentes
+            gift_list_title: Lista de presentes
+            how_we_met_desc: blabal
+            how_we_met_title: Como nos conhecemos
+            leave_a_message: DEIXE UMA MENSAGEM
+            leave_a_message_desc: Faça parte desta linda memória! Deixe sua mensagem aqui neste mural!
+            leave_a_message_title: Deixe uma mensagem
+            mei: MEI
+            mei_desc: blablabal
+            message_field:
+            party: FESTA
+            party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
+            party_title: Festa
+            send:
+            special_message_link: Depósito Especial
+            the_bride__groom: A NOIVA E O NOIVO
+            the_bride_and_groom_title: A Noiva e o Noivo
+            thi_desc: Blablabal
+            thiago: THIAGO
+            wedding: CASAMENTO
+            wedding_title: Casamento
