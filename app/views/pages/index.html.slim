@@ -1,5 +1,7 @@
-#bg-image
-  img alt="bg" src="img/background.jpg" /
+picture#bg-image
+  source media="(min-width: 768px)" srcset="img/background.jpg"
+  source media="(min-width: 320px)" srcset="img/background-mobile.jpg"
+  img src="img/background.jpg" alt="mei_and_thi"
 #bg-container
   .header-container
     #heading.wrapper.clearfix
