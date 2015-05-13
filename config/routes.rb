@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :special_deposits
+
   resources :messages, only: [:create]
 
   get 'pages/index'

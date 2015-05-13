@@ -1,100 +1,77 @@
-picture#bg-image
-  source media="(min-width: 768px)" srcset="img/background.jpg"
-  source media="(min-width: 320px)" srcset="img/background-mobile.jpg"
-  img src="img/background.jpg" alt="mei_and_thi"
-#bg-container
-  .header-container
-    #heading.wrapper.clearfix
-      nav#nav
-        ul
-          li
-            a href="#brideandgroom"= I18n.t('views.pages.index.html.slim.the_bride__groom')
-          li
-            a href="#wedding"= I18n.t('views.pages.index.html.slim.wedding')
-          li
-            a href="#party"= I18n.t('views.pages.index.html.slim.party')
-          li
-            a href="#leave-a-message"= I18n.t('views.pages.index.html.slim.leave_a_message')
-          li
-            a href="#gift-list"= I18n.t('views.pages.index.html.slim.gift_list')
-  .main-container
-    .main.wrapper.clearfix
-      header
-        #introtext
-          span.head-mei Mei
-          span.amp= '&'
-          span.head-thi Thiago
-          .date= I18n.t('views.pages.index.html.slim.date')
-          .countdown= I18n.t('views.pages.index.html.slim.countdown', days: countdown_from(I18n.t('views.pages.index.html.slim.date_raw')))
-      .clearfix
-      section#brideandgroom.clearfix
-        h1= I18n.t('views.pages.index.html.slim.the_bride_and_groom_title')
-        .column.left
-          h2=I18n.t('views.pages.index.html.slim.mei')
-          p
-            img.thumb alt="Mei" src="img/meiThumb.jpg" /
-            = I18n.t('views.pages.index.html.slim.mei_desc')
-        /! end column
-        .column.right
-          h2= I18n.t('views.pages.index.html.slim.thiago')
-          p
-            img.thumb alt="Thi" src="img/thiThumb.jpg" /
-            = I18n.t('views.pages.index.html.slim.thi_desc')
-        /! end column
-        .clearfix
-        .column.full
-          .hr-t
-          .hr-b
-        .column.full
-          h2= I18n.t('views.pages.index.html.slim.how_we_met_title')
-          p= I18n.t('views.pages.index.html.slim.how_we_met_desc')
-        /! end column
-        .column.full
-          picture.responsive-image.proposal
-            source media="(min-width: 768px)" srcset="img/onknee-large.jpg"
-            source media="(min-width: 320px)" srcset="img/onknee-small.jpg"
-            img src="img/onknee-large.jpg" alt="mei_and_thi"
-        /! end column
-      section#wedding.clearfix
-        h1= I18n.t('views.pages.index.html.slim.wedding_title')
-        .column.left
-          h2= I18n.t('views.pages.index.html.slim.ceremony')
-          p
-            = I18n.t('views.pages.index.html.slim.address_line_1')
-            br/
-            = I18n.t('views.pages.index.html.slim.address_line_2')
-            br/
-            br/
-            = I18n.t('views.pages.index.html.slim.cerimony_date')
-            br/
-            = I18n.t('views.pages.index.html.slim.cerimony_time')
-            br/
-            br/
-            br/
-            img.theinn src="img/theinn-large.png" /
-        .clearfix
-        .column.full
-          .hr-t
-          .hr-b
-      section#party.clearfix
-        h1= I18n.t('views.pages.index.html.slim.party_title')
-        .column.full
-          p= I18n.t('views.pages.index.html.slim.party_desc')
-      section#leave-a-message.clearfix
-        h1= I18n.t('views.pages.index.html.slim.leave_a_message_title')
-        .column.full
-          p= I18n.t('views.pages.index.html.slim.leave_a_message_desc')
-          = render partial: 'messages/form'
-        #messages
-          = render @messages
-        .clearfix
-      section#gift-list.clearfix
-        h1= I18n.t('views.pages.index.html.slim.gift_list_title')
-        .column.full
-          p=raw I18n.t('views.pages.index.html.slim.gift_list_desc')
-          #gift_list_link= link_to I18n.t('views.pages.index.html.slim.gift_list_link'), "https://sites.icasei.com.br/meiethi"
-          #special_message_link= link_to I18n.t('views.pages.index.html.slim.special_message_link'), 'somewhere'
-      div style=("height: 300px")
-    /! #main
-  /! #main-container
-/! #bg-container
+header
+  #introtext
+    span.head-mei Mei
+    span.amp= '&'
+    span.head-thi Thiago
+    .date= I18n.t('views.pages.index.html.slim.date')
+    .countdown= I18n.t('views.pages.index.html.slim.countdown', days: countdown_from(I18n.t('views.pages.index.html.slim.date_raw')))
+.clearfix
+
+section#brideandgroom.clearfix
+  h1= I18n.t('views.pages.index.html.slim.the_bride_and_groom_title')
+  .column.left
+    h2=I18n.t('views.pages.index.html.slim.mei')
+    p
+      img.thumb alt="Mei" src="img/meiThumb.jpg" /
+      = I18n.t('views.pages.index.html.slim.mei_desc')
+  /! end column
+  .column.right
+    h2= I18n.t('views.pages.index.html.slim.thiago')
+    p
+      img.thumb alt="Thi" src="img/thiThumb.jpg" /
+      = I18n.t('views.pages.index.html.slim.thi_desc')
+  /! end column
+  .clearfix
+  .column.full
+    .hr-t
+    .hr-b
+  .column.full
+    h2= I18n.t('views.pages.index.html.slim.how_we_met_title')
+    p= I18n.t('views.pages.index.html.slim.how_we_met_desc')
+  /! end column
+  .column.full
+    picture.responsive-image.proposal
+      source media="(min-width: 768px)" srcset="img/onknee-large.jpg"
+      source media="(min-width: 320px)" srcset="img/onknee-small.jpg"
+      img src="img/onknee-large.jpg" alt="mei_and_thi"
+  /! end column
+
+section#wedding.clearfix
+  h1= I18n.t('views.pages.index.html.slim.wedding_title')
+  .column.left
+    h2= I18n.t('views.pages.index.html.slim.ceremony')
+    p
+      = I18n.t('views.pages.index.html.slim.address_line_1')
+      br/
+      = I18n.t('views.pages.index.html.slim.address_line_2')
+      br/
+      br/
+      = I18n.t('views.pages.index.html.slim.cerimony_date')
+      br/
+      = I18n.t('views.pages.index.html.slim.cerimony_time')
+  .clearfix
+  .column.full
+    .hr-t
+    .hr-b
+
+section#party.clearfix
+  h1= I18n.t('views.pages.index.html.slim.party_title')
+  .column.full
+    p= I18n.t('views.pages.index.html.slim.party_desc')
+
+section#leave-a-message.clearfix
+  h1= I18n.t('views.pages.index.html.slim.leave_a_message_title')
+  .column.full
+    p= I18n.t('views.pages.index.html.slim.leave_a_message_desc')
+    = render partial: 'messages/form'
+  #messages
+    = render @messages
+  .clearfix
+
+
+section#gift-list.clearfix
+  h1= I18n.t('views.pages.index.html.slim.gift_list_title')
+  .column.full
+    p=raw I18n.t('views.pages.index.html.slim.gift_list_desc')
+    #gift_list_link= link_to I18n.t('views.pages.index.html.slim.gift_list_link'), "https://sites.icasei.com.br/meiethi"
+    #special_message_link= link_to I18n.t('views.pages.index.html.slim.special_message_link'), new_special_deposit_path

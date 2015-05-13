@@ -30,11 +30,37 @@ body
     | <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p
   /
     | **************************************************************************************************
-    | Template and design by Bradley - https://github.com/bmgdev/responsive-wedding
-    | http://scal.io -- check us out.
+    | Template and base design by Bradley - https://github.com/bmgdev/responsive-wedding
     | ****************************************************************************************************
 
-  = yield
+  picture#bg-image
+    source media="(min-width: 768px)" srcset="img/background.jpg"
+    source media="(min-width: 320px)" srcset="img/background-mobile.jpg"
+    img src="img/background.jpg" alt="mei_and_thi"
+  #bg-container
+    .header-container
+      #heading.wrapper.clearfix
+        nav#nav
+          ul
+            li= link_to I18n.t('views.pages.index.html.slim.home'), root_path
+            - if request.path == root_path
+              li
+                a href="#brideandgroom"= I18n.t('views.pages.index.html.slim.the_bride__groom')
+              li
+                a href="#wedding"= I18n.t('views.pages.index.html.slim.wedding')
+              li
+                a href="#party"= I18n.t('views.pages.index.html.slim.party')
+              li
+                a href="#leave-a-message"= I18n.t('views.pages.index.html.slim.leave_a_message')
+              li
+                a href="#gift-list"= I18n.t('views.pages.index.html.slim.gift_list')
+    .main-container
+      .main.wrapper.clearfix
+        = yield
+        div style=("height: 300px")
+      /! #main
+    /! #main-container
+  /! #bg-container
 
   = javascript_include_tag 'main-1.6.js', 'data-turbolinks-track' => true
   / javascript:

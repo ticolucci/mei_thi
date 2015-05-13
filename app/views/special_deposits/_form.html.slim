@@ -1,0 +1,11 @@
+= form_for @special_deposit do |f|
+  .field
+    = f.label :from, "#{I18n.t('activerecord.attributes.special_deposit.from')}: "
+    = f.text_field :from, required: true
+  .field
+    = f.label :message, "#{I18n.t('activerecord.attributes.special_deposit.message')}: "
+    = f.text_area :message, required: true
+  .field
+    = f.label :value, "#{I18n.t('activerecord.attributes.special_deposit.value')}: "
+    = f.text_field :value, required: true
+  .actions = f.submit I18n.t('views.pages.index.html.slim.send'), class:'button'

@@ -1,11 +1,11 @@
 = form_for @message do |f|
   .field
-    = f.label :from, I18n.t('views.pages.index.html.slim.from_field')
+    = f.label :from, "#{I18n.t('views.pages.index.html.slim.from_field')}: "
     = f.text_field :from, required: true
   .field
-    = f.label :message, I18n.t('views.pages.index.html.slim.message_field')
+    = f.label :message, "#{I18n.t('views.pages.index.html.slim.message_field')}: "
     = f.text_area :message, required: true
   .field
-    = f.label :email, I18n.t('views.pages.index.html.slim.email_field')
+    = f.label :email, "#{I18n.t('views.pages.index.html.slim.email_field')}: "
     = f.text_field :email, type: 'email', required: true
   .actions = f.submit I18n.t('views.pages.index.html.slim.send'), class:'button'
