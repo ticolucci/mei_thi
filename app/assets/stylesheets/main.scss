@@ -496,10 +496,10 @@ section {
   }
   #introtext {
     .head-mei,.head-thi {
-      font-size: 9em;
+      font-size: 8em;
     }
     .amp {
-      font-size: 1em;
+      font-size: 4em;
     }
     .date {
       font-size: 2em;
@@ -527,6 +527,10 @@ section {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+  }
+  #brideandgroom .half {
+    float: left;
+    width: 50%;
   }
 }
 @media only screen and(min-width: 900px) {
