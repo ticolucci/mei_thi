@@ -43,17 +43,7 @@ body
         nav#nav
           ul
             li= link_to I18n.t('views.pages.index.html.slim.home'), root_path
-            - if request.path == root_path
-              li
-                a href="#brideandgroom"= I18n.t('views.pages.index.html.slim.the_bride__groom')
-              li
-                a href="#wedding"= I18n.t('views.pages.index.html.slim.wedding')
-              li
-                a href="#party"= I18n.t('views.pages.index.html.slim.party')
-              li
-                a href="#leave-a-message"= I18n.t('views.pages.index.html.slim.leave_a_message')
-              li
-                a href="#gift-list"= I18n.t('views.pages.index.html.slim.gift_list')
+            = yield :extra_menus
     .main-container
       .main.wrapper.clearfix
         = yield
