@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :special_deposits
+  resources :special_deposits, except: [:index]
 
   resources :messages, only: [:create]
 

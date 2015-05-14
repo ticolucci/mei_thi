@@ -22,7 +22,7 @@ html.no-js
     / link href="assets/main-1.6.css" rel="stylesheet" /
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
-    = javascript_include_tag '/vendor/modernizr-2.6.2-respond-1.1.0.min.js'
+    = javascript_include_tag 'vendor/modernizr-2.6.2-respond-1.1.0.min.js'
     = csrf_meta_tags
 
 body
@@ -52,7 +52,7 @@ body
     /! #main-container
   /! #bg-container
 
-  = javascript_include_tag '/main-1.6.js', 'data-turbolinks-track' => true
+  = javascript_include_tag 'main-1.6.js', 'data-turbolinks-track' => true
   / javascript:
     | var _gaq = _gaq || [];
     | _gaq.push(['_setAccount', 'UA-XXXXXXX-XX']);

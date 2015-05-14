@@ -6,16 +6,16 @@ section.special-deposit
     = 'Mensagem postada:'
 
   .message
-    p.from
-      strong= "#{'De'}:"
-      = @special_deposit.from
-    pre.message
-      strong= "#{'Message'}:"
+    .from
+      strong= @special_deposit.from
+    .hr-t
+    .hr-b
+
+    pre.body
       = @special_deposit.message
-    p.value
-      strong= "#{'Value'}:"
-      = @special_deposit.value
+    .value-wrapper
+      span.value
+        strong= "#{'Valor para o depósito'}: "
+        = @special_deposit.value
 
   = link_to 'Editar', edit_special_deposit_path(@special_deposit)
-  '|
-  = link_to 'Voltar', root_path

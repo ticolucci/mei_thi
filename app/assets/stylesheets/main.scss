@@ -328,7 +328,7 @@ section {
   }
 }
 
-#new_message {
+form {
   .field {
     label {
       display: block;
@@ -392,9 +392,18 @@ section {
     overflow: visible;
     font-size: 1em;
   }
+  .value-wrapper{
+    width: 100%;
+    text-align: right;
+    .value {
+      margin: 20px 30px;
+      padding: 8px 25px;
+      display: inline-block;
+    }
+  }
 }
 
-  @media only screen and(min-width: 480px) {
+@media only screen and(min-width: 480px) {
   body {
     background-position: 50% 20%;
   }
