@@ -1,14 +1,13 @@
 class SpecialDepositsController < ApplicationController
   before_action :set_special_deposit, only: [:show, :edit, :update, :destroy]
-
-  def index
-    @special_deposits = SpecialDeposit.all
-  end
+  before_filter :forbid_if_not_yours, only: [:show, :edit, :update, :destroy]
 
   def show
   end
 
   def new
+    reset_session
+    session[:my_deposits] ||= []
     @special_deposit = SpecialDeposit.new
   end
 
@@ -19,6 +18,7 @@ class SpecialDepositsController < ApplicationController
     @special_deposit = SpecialDeposit.new(special_deposit_params)
 
     if @special_deposit.save
+      session[:my_deposits] << @special_deposit.id
       redirect_to @special_deposit, notice: 'Special deposit was successfully created.'
     else
       render :new
@@ -53,5 +53,9 @@ class SpecialDepositsController < ApplicationController
 
     def special_deposit_params
       params.require(:special_deposit).permit(:from, :message, :value)
+    end
+
+    def forbid_if_not_yours
+      head '404' unless session[:my_deposits].detect {|i| i == @special_deposit.id}
     end
 end

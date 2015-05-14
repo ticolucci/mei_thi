@@ -33,10 +33,14 @@ body
     | Template and base design by Bradley - https://github.com/bmgdev/responsive-wedding
     | ****************************************************************************************************
 
-  picture#bg-image
-    source media="(min-width: 768px)" srcset="/img/background.jpg"
-    source media="(min-width: 320px)" srcset="/img/background-mobile.jpg"
-    img src="/img/background.jpg" alt="mei_and_thi"
+  - content = yield :bg_picture
+  - if content.empty?
+    picture#bg-image
+      source media="(min-width: 768px)" srcset="/img/background.jpg"
+      source media="(min-width: 320px)" srcset="/img/background-mobile.jpg"
+      img src="/img/background.jpg" alt="mei_and_thi"
+  - else
+    = raw content
   #bg-container
     .header-container
       #heading.wrapper.clearfix
