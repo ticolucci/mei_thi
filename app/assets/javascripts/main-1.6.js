@@ -51,7 +51,7 @@ $(function() {
 			$(this).attr("href"),
 			{
 				duration: 1000,
-				offset: { 'left':0, 'top':-0.08*$(window).height() }
+				offset: { 'left':0, 'top':-0.15 * $(window).height() }
 			}
 		);
 			event.preventDefault();
