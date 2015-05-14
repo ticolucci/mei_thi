@@ -477,6 +477,29 @@ section {
   .oldie nav a {
     margin: 0 0.7%;
   }
+
+ul.links {
+  padding: 0;
+  text-align: center;
+  font-size: 1.6em;
+  display: block;
+  li {
+    list-style: none;
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+  }
+  #gift-list-link{
+    border-bottom: $color_rangoon_green_approx solid 1px;
+  }
+  #special-message-link {
+    border-top: $gray solid 1px;
+  }
+  li a {
+    display: block;
+  }
+}
+
 }
 
 @media only screen and(min-width: 320px)  {
@@ -484,6 +507,28 @@ section {
     display: block;
     width: 100%;
   }
+ul.links {
+  padding: 0;
+  text-align: center;
+  font-size: 1.6em;
+  display: block;
+  li {
+    list-style: none;
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+  }
+  #gift-list-link{
+    border-bottom: $color_rangoon_green_approx solid 1px;
+  }
+  #special-message-link {
+    border-top: $gray solid 1px;
+  }
+  li a {
+    display: block;
+  }
+}
+
 }
 @media only screen and(min-width: 768px) {
   section {
@@ -532,6 +577,33 @@ section {
     float: left;
     width: 50%;
   }
+  ul.links {
+    padding: 0;
+    text-align: center;
+    font-size: 1.6em;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    li {
+      display: inline-block;
+      width: 50%;
+      height: 64px;
+      line-height: 64px;
+    }
+    #gift-list-link{
+      border-bottom: none;
+      border-right: $color_rangoon_green_approx solid 1px;
+    }
+    #special-message-link {
+      border-top: none;
+      border-left: $gray solid 1px;
+    }
+    li a {
+      display: block;
+    }
+  }
 }
 @media only screen and(min-width: 900px) {
   section {
@@ -555,6 +627,31 @@ section {
       font-size: 1.4em;
       line-height: 145%;
       padding: 0 20px;
+    }
+  }
+  ul.links {
+    padding: 0;
+    text-align: center;
+    font-size: 1.6em;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    li {
+      display: inline-block;
+      width: 50%;
+      height: 64px;
+      line-height: 64px;
+    }
+    #gift-list-link{
+      border-right: $color_rangoon_green_approx solid 1px;
+    }
+    #special-message-link {
+      border-left: $gray solid 1px;
+    }
+    li a {
+      display: block;
     }
   }
 }
@@ -585,6 +682,31 @@ section {
     margin-bottom: 30%;
     float: left;
     width: 100%;
+  }
+  ul.links {
+    padding: 0;
+    text-align: center;
+    font-size: 1.6em;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;
+    li {
+      display: inline-block;
+      width: 50%;
+      height: 64px;
+      line-height: 64px;
+    }
+    #gift-list-link{
+      border-right: $color_rangoon_green_approx solid 1px;
+    }
+    #special-message-link {
+      border-left: $gray solid 1px;
+    }
+    li a {
+      display: block;
+    }
   }
 }
 .ir {
@@ -789,31 +911,5 @@ div.bp {
   }
   .column p {
     line-height: 180%;
-  }
-}
-
-ul.links {
-  padding: 0;
-  text-align: center;
-  font-size: 1.6em;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;
-  li {
-    display: inline-block;
-    width: 50%;
-    height: 64px;
-    line-height: 64px;
-  }
-  #gift-list-link{
-    border-right: $color_rangoon_green_approx solid 1px;
-  }
-  #special-message-link {
-    border-left: $gray solid 1px;
-  }
-  li a {
-    display: block;
   }
 }
