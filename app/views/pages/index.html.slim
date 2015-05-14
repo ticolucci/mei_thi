@@ -27,13 +27,11 @@ section#brideandgroom.clearfix
     .hr-b
   .column.full
     h2= I18n.t('views.pages.index.html.slim.how_we_met_title')
-    p= I18n.t('views.pages.index.html.slim.how_we_met_desc')
-  /! end column
-  .column.full
     picture.responsive-image.proposal
       source media="(min-width: 768px)" srcset="img/onknee-large.jpg"
-      source media="(min-width: 320px)" srcset="img/onknee-small.jpg"
+      source media="(min-width: 320px)" srcset="img/onknee-mobile.jpg"
       img src="img/onknee-large.jpg" alt="mei_and_thi"
+    p= I18n.t('views.pages.index.html.slim.how_we_met_desc')
   /! end column
 
 section#wedding.clearfix
