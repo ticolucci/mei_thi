@@ -74,8 +74,9 @@ section#gift-list.clearfix
   h1= I18n.t('views.pages.index.html.slim.gift_list_title')
   .column.full
     p=raw I18n.t('views.pages.index.html.slim.gift_list_desc')
-    #gift_list_link= link_to I18n.t('views.pages.index.html.slim.gift_list_link'), "https://sites.icasei.com.br/meiethi"
-    #special_message_link= link_to I18n.t('views.pages.index.html.slim.special_message_link'), new_special_deposit_path
+    ul.links
+      li#gift-list-link= link_to I18n.t('views.pages.index.html.slim.gift_list_link'), "https://sites.icasei.com.br/meiethi"
+      li#special-message-link= link_to I18n.t('views.pages.index.html.slim.special_message_link'), new_special_deposit_path
 
 section#leave-a-message.clearfix
   h1= I18n.t('views.pages.index.html.slim.leave_a_message_title')
