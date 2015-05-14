@@ -12,17 +12,17 @@ html.no-js
     meta content=("Welcome to the wedding website for Mei and Thi's Big Day!") name="description" /
     meta content="width=device-width,initial-scale=1.0" name="viewport" /
     /! For iPhone 4 with high-resolution Retina display:
-    link href="apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" /
+    link href="/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" /
     /! For first-generation iPad:
-    link href="apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" /
+    link href="/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" /
     /! For non-Retina iPhone, iPod Touch, and Android 2.1+ devices:
-    link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" /
-    link href="favicon.ico?v=1" rel=("shortcut icon") /
+    link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" /
+    link href="/favicon.ico?v=1" rel=("shortcut icon") /
     / link href="css/normalize.min.css" rel="stylesheet" /
     / link href="assets/main-1.6.css" rel="stylesheet" /
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
-    = javascript_include_tag 'vendor/modernizr-2.6.2-respond-1.1.0.min.js'
+    = javascript_include_tag '/vendor/modernizr-2.6.2-respond-1.1.0.min.js'
     = csrf_meta_tags
 
 body
@@ -34,9 +34,9 @@ body
     | ****************************************************************************************************
 
   picture#bg-image
-    source media="(min-width: 768px)" srcset="img/background.jpg"
-    source media="(min-width: 320px)" srcset="img/background-mobile.jpg"
-    img src="img/background.jpg" alt="mei_and_thi"
+    source media="(min-width: 768px)" srcset="/img/background.jpg"
+    source media="(min-width: 320px)" srcset="/img/background-mobile.jpg"
+    img src="/img/background.jpg" alt="mei_and_thi"
   #bg-container
     .header-container
       #heading.wrapper.clearfix
@@ -52,7 +52,7 @@ body
     /! #main-container
   /! #bg-container
 
-  = javascript_include_tag 'main-1.6.js', 'data-turbolinks-track' => true
+  = javascript_include_tag '/main-1.6.js', 'data-turbolinks-track' => true
   / javascript:
     | var _gaq = _gaq || [];
     | _gaq.push(['_setAccount', 'UA-XXXXXXX-XX']);
