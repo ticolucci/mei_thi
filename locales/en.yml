@@ -30,7 +30,9 @@ en:
             email_field: E-mail
             from_field: From
             gift_list: GIFT LIST
-            gift_list_desc: " <p>Your presence with us in this moment is much more important than any gift that you might give us, seriously! However we thank you in advance for the intention to help us in the beinning or our life together! </p> <p> As you know, we still do not know where we will be living in the next months. Therefore, we decided to give you two options for those who wish to give us a gift: an item from the virtual gift list or a bank deposit in Thiagos Bank account in Brazil, whatever you feel more comfortable! Follow one of the two links below: </p> "
+            gift_list_desc: |-
+              <p>Your presence with us in this moment is much more important than any gift that you might give us, seriously! However we thank you in advance for the intention to help us in the beinning or our life together! </p>
+              <p> As you know, we still do not know where we will be living in the next months. Therefore, we decided to give you two options for those who wish to give us a gift: an item from the virtual gift list or a bank deposit in Thiagos Bank account in Brazil, whatever you feel more comfortable! Follow one of the two links below: </p>
             gift_list_link: Gift List
             gift_list_title: Gift List
             home: HOME

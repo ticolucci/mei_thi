@@ -30,7 +30,9 @@ pt:
             email_field: E-mail
             from_field: De
             gift_list: LISTA DE PRESENTES
-            gift_list_desc: " <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida! </p> <p> Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo. </p> "
+            gift_list_desc: |-
+              <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida! </p>
+              <p> Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo. </p>
             gift_list_link: Lista de Presentes
             gift_list_title: Lista de presentes
             home: VOLTAR PARA O INÍCIO
