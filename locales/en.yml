@@ -5,6 +5,10 @@ en:
         email: E-mail
         from: From
         message: Message
+      special_deposit:
+        from: From
+        message: Message
+        value: Value
     models:
       message: Message
   errors:
@@ -18,25 +22,28 @@ en:
             address_line_1: Paróquia Santíssima Trindade - Av. Marechal Fiuza de Castro, 861
             address_line_2: Butantã/São Paulo
             ceremony: CEREMONY
-            cerimony_date: cerimony date
+            cerimony_date: ceremony date
             cerimony_time: Church Wedding
             countdown: "%{days} days to the big date"
             date: July 4th, 2015
             date_raw: 4-07-2015
-            email_field: 'E-mail:'
-            from_field: 'From:'
+            email_field: E-mail
+            from_field: From
             gift_list: GIFT LIST
-            gift_list_desc: " <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida! </p> <p> Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo. </p> "
+            gift_list_desc: " <p>Your presence with us in this moment is much more important than any gift that you might give us, seriously! However we thank you in advance for the intention to help us in the beinning or our life together! </p> <p> As you know, we still do not know where we will be living in the next months. Therefore, we decided to give you two options for those who wish to give us a gift: an item from the virtual gift list or a bank deposit in Thiagos Bank account in Brazil, whatever you feel more comfortable! Follow one of the two links below: </p> "
             gift_list_link: Gift List
-            gift_list_title: gift list title
+            gift_list_title: Gift List
             home: HOME
-            how_we_met_desc: " In 2010 the two were both wild and running free around San Francisco’s Marina District, as most singles do. Thiago was quite the bachelor- planning weekend getaways with friends, float trips, and taking last minute trips to Ibiza, Cabo, wherever the wind blew. Mei was quite the bachelorette, wining and dining around San Francisco, on a strict agenda which included over-extending herself, saying yes to every social engagement that came her way.  After a mutual friend of the two suggested they would make a cute couple, a date was on the books and they began to discover just how compatible they were. In no time, they also discovered they were inseparable and very in love. The rest is history- they’ve shared some amazing adventures around the world, each other's toothbrushes, and now they’re ready to share the rest of their lives together, too."
+            how_we_met_desc: 
             how_we_met_title: How We Met
             leave_a_message: LEAVE A MESSAGE
-            leave_a_message_desc: Faça parte desta linda memória! Deixe sua mensagem aqui neste mural!
+            leave_a_message_desc: 'Be a part of this amazing memory! Leave a message in this wall:'
             leave_a_message_title: Leave a Message
             mei: MEI
-            mei_desc: Mei is most thankful to her parents for the gift of two loving big brothers & five amazing role-model sisters. As the second-youngest, Mei spent her childhood twirling & dancing around, putting on talent shows for her parents & grandparents. Her creative spirit and eye for design was established at a young age, as she highly disapproved of Mattel’s © furnishings and décor within her Barbie House. If Barbie needed an interior makeover (which was frequent) Mei looked through Sunday newspaper ads & IKEA magazines for inspiration, drew the new contents by hand and placed them as backdrops in the Barbie house. After graduation from Mater Dei High School, Mei explored the metropolitan life in San Francisco and graduated with a BS in Interior Design from San Francisco State University. Mei is adding to her vows that she will forever allow a one-room “man-den” with it’s contents and décor subject to Thiago’s discretion.
+            mei_desc: |-
+              <p>Mei is the most amazing person in the world. So much that the word aMeizing is about to be the official spelling in the Oxford dictionary. #TrueStory</p>
+              <p>Besides drawing amazing cute characters and objects, building lovely miniature homes and other handcrafts, Mei loves to cook, and (probably unfortunately for Thiagos future shape) it's always über delicious! </p>
+              <p> A true Indiana Jones in her heart, Mei is never satisfied with the next trip, so she is used already to plan 2 or 3 more ahead. But even with so much planning, she still find time to learn Portuguese, play the guitar and be the best thing to happen in Thiagos life!</p>
             message_field: Message
             party: PARTY
             party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
@@ -45,7 +52,7 @@ en:
             special_message_link: Special Deposit
             the_bride__groom: THE BRIDE & GROOM
             the_bride_and_groom_title: The Bride and Groom
-            thi_desc: Born in Mission Viejo, California, Thiago spent half of his life living with his mother in San Diego and half with his wonderful Wisconsin family. Thiago grew up playing ice hockey while secretly learning how to build computers. Half jock, half nerd, he has cultivated these interests well into his adult life, that make him who he is today. After his graduation from the University of San Francisco with a degree in Information Systems, Thiago worked for Yahoo! for seven years, and continued to explore the tech startup scene in  San Francisco. With an entrepreneurial spirit and passion for technology, Thiago now runs his own software company, Scal.io, building hand-crafted mobile,  web, and desktop apps for tech companies in the Silicon Valley and beyond. Thiago is adding to his vows a lifetime IT guarantee to Mei, that he will be readily available 24/7 to troubleshoot... anything & everything technical.
+            thi_desc: 
             thiago: THIAGO
             wedding: WEDDING
             wedding_title: Wedding

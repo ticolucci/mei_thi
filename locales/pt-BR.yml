@@ -27,20 +27,23 @@ pt-BR:
             countdown: Faltam %{days} dias
             date: 4 de Julho de 2015
             date_raw: 4-07-2015
-            email_field: 'E-mail:'
-            from_field: 'De:'
+            email_field: E-mail
+            from_field: De
             gift_list: LISTA DE PRESENTES
             gift_list_desc: " <p>Sua presença junto de nós nesse momento é muito mais importante do que presente que possa nos oferecer, acredite! Porém agradecemos antecipadamente sua intenção de nos ajudar nesse início de vida! </p> <p> Como sabem, nós ainda não temos certeza de onde estaremos estabelecendo residencia fixa nos próximos meses. Assim, resolvemos dar duas opções para quem quiser nos presentear: um presente virtual da lista anexa ou um depósito em conta corrente do Thiago aí no Brasil, o que sentirem-se mais a vontade! Para isso, sigam os passos abaixo. </p> "
             gift_list_link: Lista de Presentes
             gift_list_title: Lista de presentes
             home: VOLTAR PARA O INÍCIO
-            how_we_met_desc: blabal
+            how_we_met_desc: 
             how_we_met_title: Como nos conhecemos
             leave_a_message: DEIXE UMA MENSAGEM
-            leave_a_message_desc: Faça parte desta linda memória! Deixe sua mensagem aqui neste mural!
+            leave_a_message_desc: 'Faça parte desta linda memória! Deixe sua mensagem aqui neste mural:'
             leave_a_message_title: Deixe uma mensagem
             mei: MEI
-            mei_desc: blablabal
+            mei_desc: |-
+              <p>Mei é a pessoa mais interessante, linda, divertida e carinhos do mundo. Tanto que está para sair a atualização da ortografia no dicionário Oxford para aMeizing. #TrueStory</p>
+              <p> Além de criar os mais divertidos e "guti-guti" desenhos de personagens e objetos, criar casas em miniaturas e outros artesanatos, a Mei adora cozinhar e (provavelmente infelizmente para a forma futura do Thiago) tudo que cozinha é MUITO delicioso! </p>
+              <p> Uma verdadeira Indiana Jones no coração, Mei nunca está satisfeita planejando apenas uma viagem, então ela está acostumada a ter mais uns 2 ou 3 outros planos em mente. Mas mesmo com tantos planos, ela ainda acha tempo de aprender Português, tocar violão e ser a melhor coisa que já aconteceu na vida do Thiago! </p>
             message_field: Mensagem
             party: FESTA
             party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
