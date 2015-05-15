@@ -19,13 +19,11 @@ en:
       index:
         html:
           slim:
-            address_line_1: Paróquia Santíssima Trindade - Av. Marechal Fiuza de Castro, 861
-            address_line_2: Butantã/São Paulo
             ceremony: CEREMONY
-            cerimony_date: ceremony date
-            cerimony_time: Church Wedding
+            cerimony_date: 4th of July in São Paulo  & 13th of September in Beijing
+            cerimony_time: 6:30pm
             countdown: "%{days} days to the big date"
-            date: July 4th, 2015
+            date: July 4th, 2015 & September 13th, 2015
             date_raw: 4-07-2015
             email_field: E-mail
             from_field: From
@@ -42,16 +40,22 @@ en:
             leave_a_message_desc: 'Be a part of this amazing memory! Leave a message in this wall:'
             leave_a_message_title: Leave a Message
             mei: MEI
-            mei_desc: Mei loves movies, travelling and cooking. She also tries to learning painting, guitar and Portuguese. Growing up as single child in a small city, Mei spend her childhood with books and dogs. Because of all the reading of hero and fiction stories, Mei realized that kung fu was too hard to master, therefore she started to search her own way of life. After achieving another kind of master (in computer science), she joined a global company and started to travel a lot. She went to India as a student for a trainning programme, and three years later she went back as a trainer, where she met her loved Thi.
+            mei_description: Mei loves movies, travelling and cooking. She also tries to learning painting, guitar and Portuguese. Growing up as single child in a small city, Mei spend her childhood with books and dogs. Because of all the reading of hero and fiction stories, Mei realized that kung fu was too hard to master, therefore she started to search her own way of life. After achieving another kind of master (in computer science), she joined a global company and started to travel a lot. She went to India as a student for a trainning programme, and three years later she went back as a trainer, where she met her loved Thi.
             message_field: Message
             party: PARTY
-            party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
+            party_address_line_1: Av. Dr. Cândido Motta Filho, 922
+            party_address_line_2: Vila São Francisco - São Paulo / SP
+            party_desc: After the church wedding, we are going to the Espaço Cedron in Vila São Francisco (5km away) to celebrate all together!
+            party_place: Espaço Cedrom
             party_title: Party
             send: Send
             special_message_link: Special Deposit
             the_bride__groom: THE BRIDE & GROOM
             the_bride_and_groom_title: The Bride and Groom
-            thi_desc: Thiago loves video games, music and movies, he is passionate about chocolate, icecream, coke or any combination of them. Born in Sau Paulo, Thiago has a younger borther, and he never had dogs. He fall in love with guitar since 10 and play as a band, this skill helps a lot when he first time met Mei.
+            thi_description: Thiago loves video games, music and movies. Addicted to chocolate, ice cream and hamburger. Nowadays a lovely chubby guy, in reality was born in São Paulo slim as a whip. Always joyful, he moved to Uberlandia with 10 years old together with his parents and younger brother. Went back to São Paulo with the whole family to study in a good university, where he found out his vocation for computer science and also a new addiction for Forró (traditional Brazilian couples dance). After the graduation and a failed attempt to build his own start-up with friends, he decided to join a bigger global company. One year and a half later, he had the great opportunity to change his life and go help on a trainning programme, where he met Mei - the love of his life.
             thiago: THIAGO
             wedding: WEDDING
+            wedding_address_line_1: Av. Marechal Fiuza de Castro, 861
+            wedding_address_line_2: Butantã/São Paulo
+            wedding_place: Paróquia Santíssima Trindade
             wedding_title: Wedding

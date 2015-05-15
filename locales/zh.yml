@@ -19,37 +19,41 @@ zh:
       index:
         html:
           slim:
-            address_line_1: 
-            address_line_2: 
-            ceremony: 
-            cerimony_date: 
+            ceremony: "婚礼"
+            cerimony_date: 2015年7月4日
             cerimony_time: 
-            countdown: 
-            date: 
-            date_raw: 
-            email_field: 
-            from_field: 
+            countdown: "距离婚礼还有%{days}天"
+            date: 2015年9月13日
+            date_raw: 13-09-2015
+            email_field: "电子邮箱"
+            from_field: "发自"
             gift_list: 
             gift_list_desc: 
             gift_list_link: 
             gift_list_title: 
-            home: 
+            home: "首页"
             how_we_met_desc: 
-            how_we_met_title: 
-            leave_a_message: 
-            leave_a_message_desc: 
-            leave_a_message_title: 
-            mei: 
-            mei_desc: 
+            how_we_met_title: "我们的故事"
+            leave_a_message: "留言"
+            leave_a_message_desc: "请在这里留下美好的祝福！"
+            leave_a_message_title: "留言"
+            mei: "杨眉"
+            mei_description: "杨眉喜欢看电影，旅游和烹饪。最近还在努力学习画画，吉他和葡萄牙语。身为小城市的独生子女，小时候的杨眉与小狗为伴，读了很多英雄故事和科幻小说。她也因此意识到自己无法成为故事中的小英雄，而开始找寻属于自己的人生。在获得计算机研究生学位之后，她加入一家跨国公司工作，并且开始了她的旅行计划。2011年，杨眉以学生身份加入公司在印度的培训项目，3年之后，她又以老师的身份回到这个项目，并且在那里认识了她的Thiago。"
             message_field: 
             party: 
+            party_address_line_1: 
+            party_address_line_2: 
             party_desc: 
+            party_place: 
             party_title: 
             send: 
             special_message_link: 
             the_bride__groom: 
             the_bride_and_groom_title: 
-            thi_desc: 
+            thi_description: 
             thiago: 
             wedding: 
+            wedding_address_line_1: 
+            wedding_address_line_2: 
+            wedding_place: 
             wedding_title: 

@@ -19,11 +19,9 @@ pt:
       index:
         html:
           slim:
-            address_line_1: Paróquia Santíssima Trindade - Av. Marechal Fiuza de Castro, 861
-            address_line_2: Butantã/São Paulo
             ceremony: CASAMENTO NA IGREJA
             cerimony_date: 4 de Julho de 2015
-            cerimony_time: Casamento na Igreja
+            cerimony_time: '18:30'
             countdown: Faltam %{days} dias
             date: 4 de Julho de 2015
             date_raw: 4-07-2015
@@ -42,16 +40,22 @@ pt:
             leave_a_message_desc: 'Faça parte desta linda memória! Deixe sua mensagem aqui neste mural:'
             leave_a_message_title: Deixe uma mensagem
             mei: MEI
-            mei_desc: Mei adora filmes, viajar e cozinhar. Ela também tenta aprender a desenhar, tocar violão e falar Português. Filha única numa cidade "pequena" da China, Mei cresceu com livros e cachorros. Depois de ler muitas histórias de ficção e heróis, ela percebeu que ser mestre em kung fu seria muito difícil para a vida de herói, então começou a procura do seu próprio estilo de vida. Conseguindo  o título de Mestre (em Ciências da Computação), começou a trabalhar numa empresa global e a viajar bastante. Participou de um programa de treinamento de recém graduados na Índia e voltou três anos depois como instrutora do mesmo programa, onde conheceu deu amado Thiago.
+            mei_description: Mei adora filmes, viajar e cozinhar. Ela também tenta aprender a desenhar, tocar violão e falar Português. Filha única numa cidade "pequena" da China, Mei cresceu com livros e cachorros. Depois de ler muitas histórias de ficção e heróis, ela percebeu que ser mestre em kung fu seria muito difícil para a vida de herói, então começou a procura do seu próprio estilo de vida. Conseguindo  o título de Mestre (em Ciências da Computação), começou a trabalhar numa empresa global e a viajar bastante. Participou de um programa de treinamento de recém graduados na Índia e voltou três anos depois como instrutora do mesmo programa, onde conheceu deu amado Thiago.
             message_field: Mensagem
             party: FESTA
+            party_address_line_1: Av. Dr. Cândido Motta Filho, 922
+            party_address_line_2: Vila São Francisco - São Paulo / SP
             party_desc: Após a celebração do casamento na Igreja, iremos para o buffet Cedron na Vila São Francisco (cerca de 5km da Igreja) para comemorarmos todos juntos!
+            party_place: Espaço Cedrom
             party_title: Festa
             send: Enviar
             special_message_link: Depósito Especial
             the_bride__groom: A NOIVA E O NOIVO
             the_bride_and_groom_title: A Noiva e o Noivo
-            thi_desc: Blablabal
+            thi_description: Thiago adora vídeo games, música e filmes. Viciado em chocolate, sorvete e hambúrguer. Hoje um gordinho simpático, na realidade nasceu uma varetinha em São Paulo. Sempre brincalhão, se mudou para Uberlândia ao 10 anos junto de seus pais e irmão mais novo. De volta para São Paulo com a família, estudou na USP, onde descobriu sua vocação como cientista da computação, e se viciou em forró. Após a graduação e uma tentativa de montar empresa com amigos, resolveu entrar no mundo das empresas de verdade e começou a trabalhar numa empresa global. Um ano e meio depois, teve a grande oportunidade de ir para Índia, onde conheceu Mei - o amor da sua vida.
             thiago: THIAGO
             wedding: CASAMENTO
+            wedding_address_line_1: Av. Marechal Fiuza de Castro, 861
+            wedding_address_line_2: Butantã/São Paulo
+            wedding_place: Paróquia Santíssima Trindade
             wedding_title: Casamento

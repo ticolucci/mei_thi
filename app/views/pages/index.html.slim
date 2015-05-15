@@ -26,13 +26,13 @@ section#brideandgroom.clearfix
     h2=I18n.t('views.pages.index.html.slim.mei')
     p.clearfix
       img.thumb alt="Mei" src="img/meiThumb.jpg" /
-      =raw I18n.t('views.pages.index.html.slim.mei_desc')
+      =raw I18n.t('views.pages.index.html.slim.mei_description')
   /! end column
   .column.half
     h2= I18n.t('views.pages.index.html.slim.thiago')
     p.clearfix
       img.thumb alt="Thi" src="img/thiThumb.jpg" /
-      =raw I18n.t('views.pages.index.html.slim.thi_desc')
+      =raw I18n.t('views.pages.index.html.slim.thi_description')
   /! end column
   .clearfix
   .column.full
@@ -48,28 +48,35 @@ section#brideandgroom.clearfix
   /! end column
 
 section#wedding.clearfix
-  h1= I18n.t('views.pages.index.html.slim.wedding_title')
   .column.left
-    h2= I18n.t('views.pages.index.html.slim.ceremony')
+    h1= I18n.t('views.pages.index.html.slim.wedding_title')
     p
-      = I18n.t('views.pages.index.html.slim.address_line_1')
+      strong= I18n.t('views.pages.index.html.slim.wedding_place')
       br/
-      = I18n.t('views.pages.index.html.slim.address_line_2')
+      = I18n.t('views.pages.index.html.slim.wedding_address_line_1')
+      br/
+      = I18n.t('views.pages.index.html.slim.wedding_address_line_2')
       br/
       br/
       = I18n.t('views.pages.index.html.slim.cerimony_date')
       br/
       = I18n.t('views.pages.index.html.slim.cerimony_time')
+  .column.right
+    h1= I18n.t('views.pages.index.html.slim.party_title')
+    p
+      strong= I18n.t('views.pages.index.html.slim.party_place')
+      br/
+      = I18n.t('views.pages.index.html.slim.party_address_line_1')
+      br/
+      = I18n.t('views.pages.index.html.slim.party_address_line_2')
+      br/
+      br/
+      = I18n.t('views.pages.index.html.slim.party_desc')
   .clearfix
   .column.full
     .hr-t
     .hr-b
     iframe src="https://www.google.com/maps/d/u/0/embed?mid=zFZS05FuOUp8.kS1YN0bMBK7I" width="100%" height="480"
-
-section#party.clearfix
-  h1= I18n.t('views.pages.index.html.slim.party_title')
-  .column.full
-    p= I18n.t('views.pages.index.html.slim.party_desc')
 
 section#gift-list.clearfix
   h1= I18n.t('views.pages.index.html.slim.gift_list_title')
