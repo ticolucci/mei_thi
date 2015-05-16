@@ -68,7 +68,7 @@ pt:
       new:
         html:
           slim:
-            depsito_especial: Depósito Especial
+            depsito_especial: Dados da conta corrente
       show:
         html:
           slim:
