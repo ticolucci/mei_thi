@@ -5,4 +5,8 @@ class PagesController < ApplicationController
     @message = Message.new
     @messages = Message.all
   end
+
+  def ping
+    render text: 'pong'
+  end
 end

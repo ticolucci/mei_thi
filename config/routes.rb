@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :messages, only: [:create]
 
   get 'pages/index'
+  get '/ping', to: 'pages#ping'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
