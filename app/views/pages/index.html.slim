@@ -4,8 +4,6 @@
   li
     a href="#wedding"= I18n.t('views.pages.index.html.slim.wedding')
   li
-    a href="#party"= I18n.t('views.pages.index.html.slim.party')
-  li
     a href="#gift-list"= I18n.t('views.pages.index.html.slim.gift_list')
   li
     a href="#leave-a-message"= I18n.t('views.pages.index.html.slim.leave_a_message')
@@ -37,12 +35,11 @@ section#brideandgroom.clearfix
     .hr-t
     .hr-b
   .column.full
-    h2= I18n.t('views.pages.index.html.slim.how_we_met_title')
-    picture.responsive-image.proposal
-      source media="(min-width: 768px)" srcset="img/onknee-large.jpg"
-      source media="(min-width: 320px)" srcset="img/onknee-mobile.jpg"
-      img src="img/onknee-large.jpg" alt="mei_and_thi"
-    p= I18n.t('views.pages.index.html.slim.how_we_met_desc')
+    h2=I18n.t('views.pages.index.html.slim.our_path')
+    picture.responsive-image.map_how_we_met
+      source media="(min-width: 768px)" srcset="/img/convite_finalizado.jpg"
+      source media="(min-width: 320px)" srcset="/img/convite_finalizado-mobile.jpg"
+      img src="img/convite_finalizado.jpg" alt="mapa"
   /! end column
 
 section#wedding.clearfix
