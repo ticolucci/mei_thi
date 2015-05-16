@@ -582,9 +582,14 @@ ul.links {
     -webkit-border-radius: 8px;
     border-radius: 8px;
   }
-  #brideandgroom .half {
-    float: left;
-    width: 50%;
+  #brideandgroom {
+    .half {
+      float: left;
+      width: 50%;
+    }
+    span {
+      margin-left: 19px;
+    }
   }
   ul.links {
     padding: 0;

@@ -13,15 +13,13 @@
 
 header
   #introtext
-    span.head-mei Mei
-    span.amp= '&'
-    span.head-thi Thiago
+    span.head-mei= I18n.t('views.pages.index.html.slim.mei__thiago')
     .date= I18n.t('views.pages.index.html.slim.date')
     .countdown= I18n.t('views.pages.index.html.slim.countdown', days: countdown_from(I18n.t('views.pages.index.html.slim.date_raw')))
 .clearfix
 
 section#brideandgroom.clearfix
-  h1= I18n.t('views.pages.index.html.slim.the_bride_and_groom_title')
+  h1=raw I18n.t('views.pages.index.html.slim.the_bride_and_groom_title')
   .column.half
     h2=I18n.t('views.pages.index.html.slim.mei')
     p.clearfix
