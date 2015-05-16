@@ -922,3 +922,10 @@ div.bp {
     line-height: 180%;
   }
 }
+
+.account-details {
+  strong {
+    min-width: 8em;
+    display: inline-block;
+  }
+}

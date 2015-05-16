@@ -1,3 +1,18 @@
+h2 Dados da conta
+.account-details
+  p
+    strong Nome:
+    span Thiago Rodrigues Colucci
+  p
+    strong Conta Corrente:
+    span 03498-02
+  p
+    strong Agência:
+    span 0252
+  p
+    strong CPF:
+    span 089.369.456-88
+
 = form_for @special_deposit do |f|
   .field
     = f.label :from, "#{I18n.t('activerecord.attributes.special_deposit.from')}: "

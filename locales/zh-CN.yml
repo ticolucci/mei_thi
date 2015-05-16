@@ -57,3 +57,18 @@ zh-CN:
             wedding_address_line_2: 
             wedding_place: 
             wedding_title: 
+    special_deposits:
+      edit:
+        html:
+          slim:
+            editando_depsito_especial: 
+      new:
+        html:
+          slim:
+            depsito_especial: 
+      show:
+        html:
+          slim:
+            mensagem_postada: 
+            muito_obrigado: 
+            valor_para_o_depsito: 

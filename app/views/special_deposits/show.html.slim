@@ -6,10 +6,10 @@
 
 section.special-deposit
   p.thanks
-    = 'Muito obrigado!'
+    = I18n.t('views.special_deposits.show.html.slim.muito_obrigado')
 
   p.info
-    = 'Mensagem postada:'
+    = I18n.t('views.special_deposits.show.html.slim.mensagem_postada')
 
   .message
     .from
@@ -21,7 +21,7 @@ section.special-deposit
       = @special_deposit.message
     .value-wrapper
       span.value
-        strong= "#{'Valor para o depósito'}: "
+        strong= "#{I18n.t('views.special_deposits.show.html.slim.valor_para_o_depsito')}: "
         = @special_deposit.value
 
   = link_to 'Editar', edit_special_deposit_path(@special_deposit)

@@ -59,3 +59,18 @@ pt:
             wedding_address_line_2: Butantã/São Paulo
             wedding_place: Paróquia Santíssima Trindade
             wedding_title: Casamento
+    special_deposits:
+      edit:
+        html:
+          slim:
+            editando_depsito_especial: Editando Depósito Especial
+      new:
+        html:
+          slim:
+            depsito_especial: Depósito Especial
+      show:
+        html:
+          slim:
+            mensagem_postada: 'Mensagem postada:'
+            muito_obrigado: Muito obrigado!
+            valor_para_o_depsito: 'Valor para o depósito:'
