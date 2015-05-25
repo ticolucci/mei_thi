@@ -35,7 +35,7 @@ section#brideandgroom.clearfix
     .hr-t
     .hr-b
   .column.full
-    h2=I18n.t('views.pages.index.html.slim.our_path')
+    h1=I18n.t('views.pages.index.html.slim.our_path')
     picture.responsive-image.map_how_we_met
       source media="(min-width: 768px)" srcset="/img/convite_finalizado.jpg"
       source media="(min-width: 320px)" srcset="/img/convite_finalizado-mobile.jpg"
@@ -71,6 +71,7 @@ section#wedding.clearfix
   .column.full
     .hr-t
     .hr-b
+    .overlay onClick="style.pointerEvents='none'"
     iframe src="https://www.google.com/maps/d/u/0/embed?mid=zFZS05FuOUp8.kS1YN0bMBK7I" width="100%" height="480"
 
 section#gift-list.clearfix
