@@ -48,6 +48,12 @@ body
           ul
             li= link_to I18n.t('views.pages.index.html.slim.home'), root_path
             = yield :extra_menus
+            li= link_to "?locale=pt" do
+              = image_tag '/img/Brazil-Flag-icon.png', class: :flag, alt: 'Português', title: 'Português'
+            li= link_to "?locale=zh" do
+              = image_tag '/img/China-Flag-icon.png', class: :flag, alt: '中文', title: '中文'
+            li= link_to "?locale=en" do
+              = image_tag '/img/United-Kingdom-flag-icon.png', class: :flag, alt: 'English', title: 'English'
     .main-container
       .main.wrapper.clearfix
         = yield
