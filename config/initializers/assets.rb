@@ -12,3 +12,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.precompile += %w( main-1.6.js )
 Rails.application.config.assets.precompile += %w( vendors.js )
 Rails.application.config.assets.precompile += %w( vendor/modernizr-2.6.2-respond-1.1.0.min.js )
+Rails.application.config.assets.precompile += %w( custom_zh.css )
