@@ -31,16 +31,17 @@ section#brideandgroom.clearfix
       =raw I18n.t('views.pages.index.html.slim.thi_description')
   /! end column
   .clearfix
-  .column.full
-    .hr-t
-    .hr-b
-  .column.full
-    h1=I18n.t('views.pages.index.html.slim.our_path')
-    picture.responsive-image.map_how_we_met
-      source media="(min-width: 768px)" srcset="/img/convite_finalizado.jpg"
-      source media="(min-width: 320px)" srcset="/img/convite_finalizado-mobile.jpg"
-      img src="img/convite_finalizado.jpg" alt="mapa"
-  /! end column
+  - unless in_chinese?
+    .column.full
+      .hr-t
+      .hr-b
+    .column.full
+      h1=I18n.t('views.pages.index.html.slim.our_path')
+      picture.responsive-image.map_how_we_met
+        source media="(min-width: 768px)" srcset="/img/convite_finalizado.jpg"
+        source media="(min-width: 320px)" srcset="/img/convite_finalizado-mobile.jpg"
+        img src="img/convite_finalizado.jpg" alt="mapa"
+    /! end column
 
 section#wedding.clearfix
   .column.left
@@ -56,7 +57,11 @@ section#wedding.clearfix
       = I18n.t('views.pages.index.html.slim.cerimony_date')
       br/
       = I18n.t('views.pages.index.html.slim.cerimony_time')
-  .column.right
+  #party-address.column.right
+  - if in_chinese?
+    a href="http://j.map.baidu.com/aySr4"
+      img.column.left alt="map-xianyang" src="img/map-xianyang.jpg"
+  - else
     h1= I18n.t('views.pages.index.html.slim.party_title')
     p
       strong= I18n.t('views.pages.index.html.slim.party_place')
@@ -67,20 +72,21 @@ section#wedding.clearfix
       br/
       br/
       = I18n.t('views.pages.index.html.slim.party_desc')
-  .clearfix
-  .column.full
-    .hr-t
-    .hr-b
-    .overlay onClick="style.pointerEvents='none'"
-    iframe src="https://www.google.com/maps/d/u/0/embed?mid=zFZS05FuOUp8.kS1YN0bMBK7I" width="100%" height="480"
+    .clearfix
+    .column.full
+      .hr-t
+      .hr-b
+      .overlay onClick="style.pointerEvents='none'"
+      iframe src="https://www.google.com/maps/d/u/0/embed?mid=zFZS05FuOUp8.kS1YN0bMBK7I" width="100%" height="480"
 
 section#gift-list.clearfix
   h1= I18n.t('views.pages.index.html.slim.gift_list_title')
   .column.full
     p=raw I18n.t('views.pages.index.html.slim.gift_list_desc')
-    ul.links
-      li#gift-list-link= link_to I18n.t('views.pages.index.html.slim.gift_list_link'), "https://sites.icasei.com.br/meiethi"
-      li#special-message-link= link_to I18n.t('views.pages.index.html.slim.special_message_link'), new_special_deposit_path
+    - unless in_chinese?
+      ul.links
+        li#gift-list-link= link_to I18n.t('views.pages.index.html.slim.gift_list_link'), "https://sites.icasei.com.br/meiethi"
+        li#special-message-link= link_to I18n.t('views.pages.index.html.slim.special_message_link'), new_special_deposit_path
 
 section#leave-a-message.clearfix
   h1= I18n.t('views.pages.index.html.slim.leave_a_message_title')
