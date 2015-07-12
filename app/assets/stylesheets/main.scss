@@ -445,13 +445,13 @@ form {
         padding: 0;
         margin: 0;
         display: inline;
+        font-size: 1.4em;
       }
     }
     a {
       padding: 15px 1%;
       margin-bottom: 0;
       display: inline-block;
-      font-size: 60%;
       white-space: nowrap;
       -moz-font-smoothing: antialiased;
       -o-font-smoothing: antialiased;
@@ -515,6 +515,15 @@ ul.links {
   .responsive-image.proposal img {
     display: block;
     width: 100%;
+  }
+  nav {
+    ul li {
+      font-size: 0.9em;
+    }
+    a {
+      margin: 0;
+      font-weight: normal;
+    }
   }
 ul.links {
   padding: 0;

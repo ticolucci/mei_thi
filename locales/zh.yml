@@ -27,12 +27,12 @@ zh:
             date_raw: 13-09-2015
             email_field: "电子邮箱"
             from_field: "发自"
-            gift_list: "礼物清单"
+            gift_list: "关于祝福"
             gift_list_desc: |-
               <p>对我们来说，您的见证才是最珍贵的礼物！如果您有意愿在我们建立小家庭之初给予帮助，我们也万分感谢。</p>
               <p>您可以在婚礼现场送上您的祝福和红包，也可以发送电子红包到杨眉的支付宝账户(jamieyoung@126.com)，再次感谢！</p>
             gift_list_link: "礼物清单"
-            gift_list_title: "礼物清单"
+            gift_list_title: "关于祝福"
             home: "首页"
             how_we_met_desc: 
             how_we_met_title: "我们的故事"
