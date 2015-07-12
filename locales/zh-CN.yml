@@ -2,75 +2,77 @@ zh-CN:
   activerecord:
     attributes:
       message:
-        email: 
-        from: 
-        message: 
+        email: "电子邮箱"
+        from: "来自"
+        message: "留言"
       special_deposit:
-        from: 
-        message: 
-        value: 
+        from: "来自"
+        message: "留言"
+        value: "金额"
     models:
-      message: 
+      message: "留言"
   errors:
     messages:
-      blank: 
+      blank: "空白"
   views:
     pages:
       index:
         html:
           slim:
             ceremony: "婚礼"
-            cerimony_date: 2015年7月4日
-            cerimony_time: 
+            cerimony_date: 2015年9月13日
+            cerimony_time: "上午11:30"
             countdown: "距离婚礼还有%{days}天"
             date: 2015年9月13日
             date_raw: 13-09-2015
             email_field: "电子邮箱"
             from_field: "发自"
-            gift_list: 
-            gift_list_desc: 
-            gift_list_link: 
-            gift_list_title: 
+            gift_list: "关于祝福"
+            gift_list_desc: |-
+              <p>对我们来说，您的见证才是最珍贵的礼物！如果您有意愿在我们建立小家庭之初给予帮助，我们也万分感谢。</p>
+              <p>您可以在婚礼现场送上您的祝福和红包，也可以发送电子红包到杨眉的支付宝账户(jamieyoung@126.com)，再次感谢！</p>
+            gift_list_link: "礼物清单"
+            gift_list_title: "关于祝福"
             home: "首页"
-            how_we_met_desc: 
+            how_we_met_desc:
             how_we_met_title: "我们的故事"
             leave_a_message: "留言"
             leave_a_message_desc: "请在这里留下美好的祝福！"
             leave_a_message_title: "留言"
             mei: "杨眉"
-            mei__thiago: 
+            mei__thiago: Thiago 和 杨眉
             mei_description: "杨眉喜欢看电影，旅游和烹饪。最近还在努力学习画画，吉他和葡萄牙语。身为小城市的独生子女，小时候的杨眉与小狗为伴，读了很多英雄故事和科幻小说。她也因此意识到自己无法成为故事中的小英雄，而开始找寻属于自己的人生。在获得计算机研究生学位之后，她加入一家跨国公司工作，并且开始了她的旅行计划。2011年，杨眉以学生身份加入公司在印度的培训项目，3年之后，她又以老师的身份回到这个项目，并且在那里认识了她的Thiago。"
-            message_field: 
-            our_path: 
-            party: 
-            party_address_line_1: 
-            party_address_line_2: 
-            party_desc: 
-            party_place: 
-            party_title: 
-            send: 
-            special_message_link: 
-            the_bride__groom: 
-            the_bride_and_groom_title: 
-            thi_description: 
-            thiago: 
-            wedding: 
-            wedding_address_line_1: 
-            wedding_address_line_2: 
-            wedding_place: 
-            wedding_title: 
+            message_field: "留言"
+            our_path: "历程"
+            party: "婚宴"
+            party_address_line_1: "咸阳市人民西路49号金芙蓉酒店"
+            party_address_line_2: "陕西"
+            party_desc:
+            party_place:
+            party_title: "婚宴"
+            send: "发送"
+            special_message_link: "红包"
+            the_bride__groom: "新郎和新娘"
+            the_bride_and_groom_title: "新郎和新娘"
+            thi_description: Thiago喜欢游戏，音乐和电影，酷爱巧克力，冰淇淋和汉堡。曾经纤瘦的圣保罗小男孩，现在已成为一个可爱的胖子。10岁时他和父母弟弟搬到了乌柏兰迪亚，之后又举家搬回圣保罗并且在当地最好的大学读书。在那里，他开始喜欢上计算机，并且找到新的爱好 - Forro(起源于巴西东北部的民间双人舞)。毕业之后，和朋友尝试创业未果，他决定加入一家大型国际公司工作。一年半之后，他作为讲师加入公司的培训项目，在那里他遇到了杨眉 - 一生最爱。
+            thiago: Thiago
+            wedding: "婚礼"
+            wedding_address_line_1: "人民西路49号"
+            wedding_address_line_2: "陕西咸阳市"
+            wedding_place: "金芙蓉酒店"
+            wedding_title: "婚礼"
     special_deposits:
       edit:
         html:
           slim:
-            editando_depsito_especial: 
+            editando_depsito_especial:
       new:
         html:
           slim:
-            depsito_especial: 
+            depsito_especial:
       show:
         html:
           slim:
-            mensagem_postada: 
-            muito_obrigado: 
-            valor_para_o_depsito: 
+            mensagem_postada: "留言"
+            muito_obrigado: "非常感谢"
+            valor_para_o_depsito: "金额"

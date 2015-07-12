@@ -34,7 +34,7 @@ zh:
             gift_list_link: "礼物清单"
             gift_list_title: "关于祝福"
             home: "首页"
-            how_we_met_desc: 
+            how_we_met_desc:
             how_we_met_title: "我们的故事"
             leave_a_message: "留言"
             leave_a_message_desc: "请在这里留下美好的祝福！"
@@ -47,8 +47,8 @@ zh:
             party: "婚宴"
             party_address_line_1: "咸阳市人民西路49号金芙蓉酒店"
             party_address_line_2: "陕西"
-            party_desc: 
-            party_place: 
+            party_desc:
+            party_place:
             party_title: "婚宴"
             send: "发送"
             special_message_link: "红包"
@@ -57,19 +57,19 @@ zh:
             thi_description: Thiago喜欢游戏，音乐和电影，酷爱巧克力，冰淇淋和汉堡。曾经纤瘦的圣保罗小男孩，现在已成为一个可爱的胖子。10岁时他和父母弟弟搬到了乌柏兰迪亚，之后又举家搬回圣保罗并且在当地最好的大学读书。在那里，他开始喜欢上计算机，并且找到新的爱好 - Forro(起源于巴西东北部的民间双人舞)。毕业之后，和朋友尝试创业未果，他决定加入一家大型国际公司工作。一年半之后，他作为讲师加入公司的培训项目，在那里他遇到了杨眉 - 一生最爱。
             thiago: Thiago
             wedding: "婚礼"
-            wedding_address_line_1: "咸阳市人民西路49号金芙蓉酒店"
-            wedding_address_line_2: "陕西"
-            wedding_place: 
+            wedding_address_line_1: "人民西路49号"
+            wedding_address_line_2: "陕西咸阳市"
+            wedding_place: "金芙蓉酒店"
             wedding_title: "婚礼"
     special_deposits:
       edit:
         html:
           slim:
-            editando_depsito_especial: 
+            editando_depsito_especial:
       new:
         html:
           slim:
-            depsito_especial: 
+            depsito_especial:
       show:
         html:
           slim:
