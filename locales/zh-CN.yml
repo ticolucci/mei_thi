@@ -20,11 +20,11 @@ zh-CN:
         html:
           slim:
             ceremony: "婚礼"
-            cerimony_date: 2015年9月13日
+            cerimony_date: 2015年9月12日
             cerimony_time: "上午11:30"
             countdown: "距离婚礼还有%{days}天"
-            date: 2015年9月13日
-            date_raw: 13-09-2015
+            date: 2015年9月12日
+            date_raw: 12-09-2015
             email_field: "电子邮箱"
             from_field: "发自"
             gift_list: "关于祝福"
@@ -45,7 +45,7 @@ zh-CN:
             message_field: "留言"
             our_path: "历程"
             party: "婚宴"
-            party_address_line_1: "咸阳市人民西路49号金芙蓉酒店"
+            party_address_line_1: "咸阳市人民西路49号红螺湾酒店"
             party_address_line_2: "陕西"
             party_desc:
             party_place:
@@ -59,7 +59,7 @@ zh-CN:
             wedding: "婚礼"
             wedding_address_line_1: "人民西路49号"
             wedding_address_line_2: "陕西咸阳市"
-            wedding_place: "金芙蓉酒店"
+            wedding_place: "红螺湾酒店"
             wedding_title: "婚礼"
     special_deposits:
       edit:

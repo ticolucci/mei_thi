@@ -20,11 +20,11 @@ en:
         html:
           slim:
             ceremony: CEREMONY
-            cerimony_date: 4th of July in São Paulo  & 13th of September in Beijing
+            cerimony_date: 4th of July in São Paulo  & 12th of September in Beijing
             cerimony_time: 6:30pm
             countdown: "%{days} days to the big date"
-            date: July 4th, 2015 & September 13th, 2015
-            date_raw: 4-07-2015
+            date: July 4th, 2015 & September 12th, 2015
+            date_raw: 12-09-2015
             email_field: E-mail
             from_field: From
             gift_list: GIFT LIST
@@ -34,7 +34,7 @@ en:
             gift_list_link: Gift List
             gift_list_title: Gift List
             home: HOME
-            how_we_met_desc: 
+            how_we_met_desc:
             how_we_met_title: How We Met
             leave_a_message: LEAVE A MESSAGE
             leave_a_message_desc: 'Be a part of this amazing memory! Leave a message in this wall:'
